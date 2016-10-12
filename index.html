@@ -166,7 +166,7 @@ d3.csv("data.csv", function(error, csv) {
 		  .attr("dy", ".71em")
 		  .style("text-anchor", "end")
 		  .style("font-size", "16px") 
-		  .text("Length in cms");		
+		  .text("Centimetres");		
 	
 	// draw x axis	
 	svg.append("g")
@@ -175,7 +175,7 @@ d3.csv("data.csv", function(error, csv) {
       .call(xAxis)
 	  .append("text")             // text label for the x axis
         .attr("x", (width / 2) )
-        .attr("y",  10 )
+        .attr("y",  5 )
 		.attr("dy", ".71em")
         .style("text-anchor", "middle")
 		.style("font-size", "16px") 
